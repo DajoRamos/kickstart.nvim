@@ -354,10 +354,10 @@ require('lazy').setup({
       -- require('which-key').register({
       --   ['<leader>h'] = { 'Git [H]unk' },
       -- }, { mode = 'v' })
-    --   require('which-key').add({
-    --     { '<leader>h', desc = 'Git [H]unk', mode = 'v' },
-    --   }, {})
-    -- end,
+      --   require('which-key').add({
+      --     { '<leader>h', desc = 'Git [H]unk', mode = 'v' },
+      --   }, {})
+      -- end,
       spec = {
         { '<leader>c', group = '[C]ode', mode = { 'n', 'x' } },
         { '<leader>d', group = '[D]ocument' },
@@ -690,7 +690,7 @@ require('lazy').setup({
         --    https://github.com/pmizio/typescript-tools.nvim
         --
         -- But for many setups, the LSP (`ts_ls`) will work just fine
-        ts_ls = {},
+        tsserver = {},
         --
 
         lua_ls = {
